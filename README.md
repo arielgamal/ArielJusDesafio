@@ -21,7 +21,7 @@ Clone o repositório do github em sua pasta com comando **git clone**.
 <br>
 
 ## **Passo 2:**
-Entre na pasta clonada com o comando **cd ArielJus**.  
+Entre na pasta clonada com o comando **cd ArielJusDesafio**.  
 A pasta ArielJus possui 2 pastas: 
 <ul>
   <li>frontJusTS</li>
