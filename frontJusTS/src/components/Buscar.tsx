@@ -38,7 +38,7 @@ export function Buscar() {
 
       <div className="mt-[20px] flex">
         <div>
-          <input
+          <input  
           data-testid="input"
           className="mr-[20px] h-[3rem] w-[20rem] border-[1px] border-solid border-[lightgrey] pl-[10px] rounded hover:border-[darkgrey] focus:border-blue-700"
           onChange={(e) => setProtocolo(e.target.value)}
@@ -52,6 +52,7 @@ export function Buscar() {
             data-testid="button"
             className="bg-blue-500 h-[3rem] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             onClick={getByProtocol}
+            type="submit"
             >CONSULTAR</button>
       </div>
     </div>
