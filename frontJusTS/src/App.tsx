@@ -13,8 +13,6 @@ export function App() {
       {error ? (
         <div className='flex items-center justify-center flex-col'>
           <h1>{error}</h1>
-          <h1>404</h1>
-          <h2>Page not found</h2>
         </div>
   ) : (
     data && data.map((element: IProcessos, index: number) => (

@@ -15,7 +15,7 @@ export function Buscar() {
   }
 
   async function getByProtocol() {
-    if (protocolo.length === 0) {
+    if (protocolo.trim().length === 0) {
       setEmptyInput("Voce precisa preencher o campo")
       setError("")
       return 
@@ -31,7 +31,6 @@ export function Buscar() {
       })
       .catch((error) => {
         setError(error.response.data.message)
-        console.log(error.response.data)
       }).finally(() => {
         setProtocolo("")
       })
