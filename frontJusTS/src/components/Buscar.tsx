@@ -22,11 +22,9 @@ export function Buscar() {
     } 
 
     setEmptyInput("")
-    
     axios
     .get(`http://localhost:3001/${protocolo}`)
     .then((data) => {
-        console.log(protocolo);
         setError("")
         setData(data.data)
       })
